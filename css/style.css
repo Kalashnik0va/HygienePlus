@@ -1,0 +1,172 @@
+{
+	box-sizing: border-box;
+}
+body{
+	font-family: Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+	line-height: 27px;
+	margin: 0;
+	color: #636363;
+}
+img{
+	max-width: 100%;
+}
+a{
+	text-decoration: none;
+}
+h2{
+	color: #111111;
+	font-size: 32px;
+	line-height: 38px;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px 5%;
+	position: sticky;
+	top: 0;
+	background-color: #FFFFFF;
+}
+
+nav a{
+	color: #626262;
+	padding: 15px;
+	
+}
+
+nav a:hover{
+	background-color: #DFB162;
+	color: #FFFFFF;
+	transition: .4s;
+}
+/*
+.signup{
+	background-color: #DFB162;
+	color: #FFFFFF;
+	padding: 10px 30px;
+}
+.signup:hover{
+	opacity: .7;
+}
+*/
+
+.banner{
+	background-image: url(../images/background/8.jpg);
+	height: 700px;
+	background-size: cover;
+	color: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+  background-color: rgba(0,0,0,0.5); /* Tint color */
+  background-blend-mode: multiply;
+
+}
+	
+
+.banner h3{
+	
+}
+
+.overlaytext{
+	max-width: 600px;
+}
+.btn1,.btn2 {
+	background-color: #DFB162;
+	color: #FFFFFF;
+	padding: 10px 30px;
+	
+}
+.btn1:hover{
+	background-color: #FFFFFF;
+	color: #000000;
+}
+
+.about{
+   padding: 100px 0;
+}
+.row{
+	display: flex;
+	max-width: 1200px;
+	margin: auto;
+}
+.col{
+	flex: 1;
+	padding: 20px;
+}
+.btn2:hover{
+	background-color: #000000;
+	color: #FFFFFF;
+}
+	.title{
+	text-align: center;
+	
+}
+.service{
+	
+	background-color: #FAF5EB;
+	padding: 100px 0;
+	text-align: center;
+	text-align: 
+}
+.team{
+	padding: 100px 0;
+	text-align: center;
+}
+
+.contact{
+	
+	padding: 100px 0;
+	text-align: center;
+	text-align: 
+}
+
+footer{
+	background-color: #000000;
+	color: ;
+}	
+.footerbottam{
+	text-align: center;
+	padding: 10px;
+	border-top: 1px solid ;
+}
+
+/*media query for mobile*/	
+
+@media screen and (max-width:428px){
+header{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 5%;
+	position: static;
+	top: 0;
+	background-color: #FFFFFF;	
+}
+	nav{
+		text-align: center;
+	}
+	nav a{
+	display: block;
+	
+}
+	.row{
+	flex-direction: column;
+}
+}
+/*media query for tab*/
+@media screen and (min-width:429px) and (max-width:768px){
+	
+	.row{
+	flex-wrap: wrap;
+}
+.col{
+	flex: 50%;
+}
+	.hide-in-tab{
+		display: none;
+	}
+}
